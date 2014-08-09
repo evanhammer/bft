@@ -17,9 +17,10 @@ $headings-font-weight: 900;
 @import 'packages/bootstrap3-sass/bootstrap';
 
 $border-width: 2px;
+$page-padding-vertical: 50px;
 
 body {
-    padding-top: 50px;
+    padding-top: $page-padding-vertical;
     font-weight: 300;
 }
 
@@ -27,11 +28,15 @@ body {
     margin: 0px;
 }
 
+.content {
+    padding-bottom: $page-padding-vertical;
+    margin-bottom: $page-padding-vertical;
+}
 .footer {
     position: fixed;
     bottom: 0px;
-    height: 50px;
-    line-height: 50px;
+    height: $page-padding-vertical;
+    line-height: $page-padding-vertical;
     border-top: $border-width solid rgb(70, 0, 37);
     background-color: $body-bg;
 }
