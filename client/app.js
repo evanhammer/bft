@@ -38,7 +38,6 @@ Template.bft.events({
                 hoursStr = "0" + hoursStr;
             }
             var time = hoursStr + ":" + minutesStr + ":" + secondsStr;
-            console.log(time);
             $('#time').text(time);
         }, 100);
     }
