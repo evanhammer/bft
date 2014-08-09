@@ -1,9 +1,9 @@
 /* global Meteor, Template */
-Template.hello.greeting = function () {
-    return "It's just a Big Fucking Timer.";
-};
+//Template.hello.greeting = function () {
+//    return "It's just a Big Fucking Timer.";
+//};
 
-Template.hello.events({
+Template.bft.events({
     'click input': function () {
         // template data, if any, is available in 'this'
         if (typeof console !== 'undefined') {
