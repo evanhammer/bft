@@ -2,13 +2,21 @@
 
 $body-bg: rgb(120, 158, 52);
 $text-color: rgb(70, 0, 37);
-$link-color: rgb(251, 254, 168);
-$link-hover-color: rgb(251, 254, 168);
+$link-color: white;
+$active-color: rgb(251, 254, 168);
+$link-hover-color: rgb(230, 230, 230);
 
 $font-family-base: Lato;
 
+$grid-gutter-width: 0px;
+
+$font-size-hl: 200px;
+$font-size-h2: 45px;
+$headings-font-weight: 900;
+
 @import 'packages/bootstrap3-sass/bootstrap';
 
+$border-width: 2px;
 
 body {
     padding-top: 50px;
@@ -17,9 +25,30 @@ body {
 
 .title {
     margin: 0px;
-    font-weight: 300;
 }
 
-.timer {
-    font-weight: 900;
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    line-height: 50px;
+    border-top: $border-width solid rgb(70, 0, 37);
+    background-color: $body-bg;
+}
+
+button {
+    padding: 10px 40px;
+    box-shadow: none;
+    outline: none;
+    border: $border-width $text-color solid;
+    background-color: white;
+    border-radius: 2px;
+
+    &:hover {
+        background-color: $link-hover-color;
+    }
+
+    &:active{
+        background-color: $active-color;
+    }
 }
