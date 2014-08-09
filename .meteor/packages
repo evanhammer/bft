@@ -5,6 +5,7 @@
 
 standard-app-packages
 autopublish
-moment
 bootstrap3-sass
 scss
+fittext
+moment

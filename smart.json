@@ -1,6 +1,7 @@
 {
   "packages": {
-    "moment": {},
-    "bootstrap3-sass": {}
+    "bootstrap3-sass": {},
+    "fittext": {},
+    "moment": {}
   }
 }

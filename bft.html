@@ -1,14 +1,36 @@
 <head>
 <title>bft</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
 
 <body>
-{{> bft}}
+<div class="container-fluid">
+    {{> bft}}
+    {{> footer}}
+</div>
 </body>
 
 <template name="bft">
-<p>it's just a</p>
-<h1>Big Fuckin Timer</h1>
-<input type="button" value="Click" />
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <div>just a</div>
+            <h1 class="title">Big Fucking Timer</h1>
+            <div id="time" class="timer">00:00:00</div>
+            <button class="count-up">Count Up</button>
+            <button class="count-down">Count Down</button>
+        </div>
+    </div>
+</template>
+
+
+<template name="footer">
+    <div class="col-xs-12 text-center">
+        <a href="http://twitter.com/evanhammer" target="_blank">
+            Evan Hammer
+        </a>
+        &#183;
+        <a href="http://twitter.com/hashtag/tsmeteorhack" target="_blank">
+            #tsmeteorhack
+        </a>
+    </div>
 </template>

@@ -1,5 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+$body-bg: rgb(120, 158, 52);
+$text-color: rgb(70, 0, 37);
+$link-color: rgb(251, 254, 168);
+$link-hover-color: rgb(251, 254, 168);
+
+$font-family-base: Lato;
+
 @import 'packages/bootstrap3-sass/bootstrap';
 
+
 body {
-    background-color: blue;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.title {
+    margin: 0px;
+    font-weight: 300;
+}
+
+.timer {
+    font-weight: 900;
 }
