@@ -33,12 +33,13 @@ body {
     margin-bottom: $page-padding-vertical;
 }
 .footer {
+    color: $active-color;
     position: fixed;
     bottom: 0px;
     height: $page-padding-vertical;
     line-height: $page-padding-vertical;
-    border-top: $border-width solid rgb(70, 0, 37);
-    background-color: $body-bg;
+    //border-top: $border-width solid rgb(70, 0, 37);
+    background-color: $text-color;
 }
 
 button {
