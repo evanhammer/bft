@@ -5,7 +5,8 @@
 
 standard-app-packages
 autopublish
-bootstrap3-sass
-scss
-fittext
-moment
+momentjs:moment
+mrt:fittext
+fourseven:scss
+reywood:bootstrap3-sass
+standard-minifiers
